@@ -21,6 +21,9 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="urlencode.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="urlopen.py" />
     <Compile Include="urlretrieve.py">
       <SubType>Code</SubType>
