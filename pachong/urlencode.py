@@ -14,5 +14,3 @@ url=url+"?"+qs
 print(url)#打印出 http://www.baidu.com/s?wd=周杰伦
 resp=request.urlopen(url)
 print(resp.read()) 
-
-
