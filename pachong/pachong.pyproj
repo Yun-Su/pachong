@@ -28,6 +28,9 @@
     <Compile Include="urlparse.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="urlparse链接解析.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="urlretrieve.py">
       <SubType>Code</SubType>
     </Compile>
