@@ -7,4 +7,5 @@ qs=parse.urlencode(params)
 print(qs)
 #打印重新编码后的字符
 result=parse.parse_qs(qs)
+#将编码还原为原来的字符
 print(result)
