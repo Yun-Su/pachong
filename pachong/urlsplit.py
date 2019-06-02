@@ -11,3 +11,5 @@ print('path=',result.path)
 print('query=',result.query)
 print('fragment=',result.fragment)
 #urlparse比urlsplit多了个params,其他保持一致
+#例如url="http://www.baidu.com/s;hello?wd=python&username=abc#1"
+#urlparse可以解析出hello关键字,而urlsplit则不能
