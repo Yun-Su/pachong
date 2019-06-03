@@ -21,6 +21,9 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="PorxyHandler代理.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="reques.Request类.py">
       <SubType>Code</SubType>
     </Compile>
